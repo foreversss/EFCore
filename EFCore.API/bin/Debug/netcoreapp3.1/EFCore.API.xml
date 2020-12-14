@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EFCore.API</name>
+    </assembly>
+    <members>
+        <member name="M:EFCore.API.Controllers.ValuesController.GetAllUser">
+            <summary>
+            查询所有用户
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

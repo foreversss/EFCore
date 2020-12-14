@@ -1,0 +1,11 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\bin\Debug\netcoreapp3.1\EFCore.Entity.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\bin\Debug\netcoreapp3.1\EFCore.Entity.runtimeconfig.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\bin\Debug\netcoreapp3.1\EFCore.Entity.runtimeconfig.dev.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.csproj.CoreCompileInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Entity\obj\Debug\netcoreapp3.1\EFCore.Entity.genruntimeconfig.cache

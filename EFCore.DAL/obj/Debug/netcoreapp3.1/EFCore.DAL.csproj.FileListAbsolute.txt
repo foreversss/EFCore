@@ -1,0 +1,12 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\bin\Debug\netcoreapp3.1\EFCore.DAL.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\bin\Debug\netcoreapp3.1\EFCore.DAL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\bin\Debug\netcoreapp3.1\EFCore.DAL.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.csproj.CoreCompileInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.csproj.CopyComplete
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.DAL\obj\Debug\netcoreapp3.1\EFCore.DAL.pdb

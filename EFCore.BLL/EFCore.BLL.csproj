@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFCore.DAL\EFCore.DAL.csproj" />
+    <ProjectReference Include="..\EFCore.Entity\EFCore.Entity.csproj" />
+    <ProjectReference Include="..\EFCore.Tools\EFCore.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

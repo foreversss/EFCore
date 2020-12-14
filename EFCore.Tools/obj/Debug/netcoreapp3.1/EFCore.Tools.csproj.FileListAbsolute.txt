@@ -1,0 +1,9 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\bin\Debug\netcoreapp3.1\EFCore.Tools.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\bin\Debug\netcoreapp3.1\EFCore.Tools.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\bin\Debug\netcoreapp3.1\EFCore.Tools.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.Tools\obj\Debug\netcoreapp3.1\EFCore.Tools.csproj.CoreCompileInputs.cache

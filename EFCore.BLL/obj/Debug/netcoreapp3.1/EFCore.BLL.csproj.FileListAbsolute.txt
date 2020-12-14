@@ -1,0 +1,16 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.BLL.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.BLL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.BLL.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.DAL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.Tools.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.DAL.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\bin\Debug\netcoreapp3.1\EFCore.Tools.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.csproj.CoreCompileInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.csproj.CopyComplete
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.BLL\obj\Debug\netcoreapp3.1\EFCore.BLL.pdb

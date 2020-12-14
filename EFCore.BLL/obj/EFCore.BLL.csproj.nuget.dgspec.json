@@ -1,0 +1,286 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.BLL\\EFCore.BLL.csproj": {}
+  },
+  "projects": {
+    "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.BLL\\EFCore.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.BLL\\EFCore.BLL.csproj",
+        "projectName": "EFCore.BLL",
+        "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.BLL\\EFCore.BLL.csproj",
+        "packagesPath": "C:\\Users\\shanbo\\.nuget\\packages\\",
+        "outputPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shanbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\EFCore.DAL.csproj": {
+                "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\EFCore.DAL.csproj"
+              },
+              "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj": {
+                "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj"
+              },
+              "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\EFCore.Tools.csproj": {
+                "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\EFCore.Tools.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\EFCore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\EFCore.DAL.csproj",
+        "projectName": "EFCore.DAL",
+        "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\EFCore.DAL.csproj",
+        "packagesPath": "C:\\Users\\shanbo\\.nuget\\packages\\",
+        "outputPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shanbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj": {
+                "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj",
+        "projectName": "EFCore.Entity",
+        "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj",
+        "packagesPath": "C:\\Users\\shanbo\\.nuget\\packages\\",
+        "outputPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shanbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\EFCore.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\EFCore.Tools.csproj",
+        "projectName": "EFCore.Tools",
+        "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\EFCore.Tools.csproj",
+        "packagesPath": "C:\\Users\\shanbo\\.nuget\\packages\\",
+        "outputPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Tools\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\shanbo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AspectCore.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
