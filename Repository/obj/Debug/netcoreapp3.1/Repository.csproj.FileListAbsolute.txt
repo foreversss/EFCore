@@ -1,0 +1,12 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\Repository\obj\Debug\netcoreapp3.1\Repository.pdb

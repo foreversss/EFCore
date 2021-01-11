@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ using EFCore.Tools.Extensions;
 using EFCore.Tools.Helpers;
 using EFCore.Tools.Ioc;
 using EFCore.Tools.LogManange;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -25,6 +27,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 namespace EFCore.API
@@ -52,7 +55,7 @@ namespace EFCore.API
             });
 
             // 配置EF服务注册
-            services.AddDbContext<ConCardContext>(options =>
+            services.AddDbContextPool<ConCardContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("sqlserverstring")));
 
             //依赖注入
@@ -63,8 +66,17 @@ namespace EFCore.API
             services.AddScopedAssembly("EFCore.BLL");
 
             //注册跨域
-            services.AddCors(x => x.AddPolicy(Any, a => a.SetIsOriginAllowed
-                (_ => true).AllowAnyMethod().AllowAnyHeader().AllowCredentials()));
+            services.AddCors(options =>
+            {
+                options.AddPolicy(Any, corsbuilder =>
+                {
+                    var corsPath = Configuration.GetSection("CorsPaths").GetChildren().Select(p => p.Value).ToArray();
+                    corsbuilder.WithOrigins(corsPath)
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials();//指定处理cookie
+                });
+            });
 
 
             //注册Swagger生成器，定义一个或多个Swagger文档
@@ -119,12 +131,31 @@ namespace EFCore.API
             {
                 services.AddSingleton<IMemoryCacheService, MemoryCacheService>();
             }
+
+
+            //生成Token
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                 .AddJwtBearer(options =>
+                 {
+                     options.TokenValidationParameters = new TokenValidationParameters
+                     {
+                         ValidateIssuer = true,//是否验证Issuer
+                         ValidateAudience = true,//是否验证Audience
+                         ValidateLifetime = true,//是否验证失效时间
+                         ValidateIssuerSigningKey = true,//是否验证SecurityKey                       
+                         AudienceValidator = (m, n, z) => { return m != null && m.FirstOrDefault().Equals(Configuration["ValidAudience"]); },//这里采用动态验证的方式，在重新登陆时，刷新token，旧token就强制失效了
+                         ValidIssuer = "igbom_web",//Issuer，这两项和前面签发jwt的设置一致
+                         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["SecurityKey"]))//拿到SecurityKey
+                     };
+                 });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-          
+            //启用jwt验证
+            app.UseAuthentication();
+
             //访问HTML 静态页面
             app.UseStaticFiles();
 
@@ -152,14 +183,10 @@ namespace EFCore.API
                 c.RoutePrefix = string.Empty;
             });
 
-            app.UseHttpsRedirection();
-
+            app.UseHttpsRedirection(); 
             app.UseRouting();
-
             app.UseCors(Any);
-
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

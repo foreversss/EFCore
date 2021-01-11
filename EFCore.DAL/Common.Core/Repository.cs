@@ -181,7 +181,7 @@ namespace EFCore.DAL.Common.Core
             }
         }
 
-        public async Task Update(T entity, bool isSave = true)
+        public async Task<int> Update(T entity, bool isSave = true)
         {
             var entry = this._dbContext.Entry(entity);
             if (entry.State == EntityState.Detached)
@@ -190,8 +190,9 @@ namespace EFCore.DAL.Common.Core
             }
             if (isSave)
             {
-               await this.SaveChanges();
+                return await this.SaveChanges();
             }
+            return 0;
         }
 
         public async Task Update(bool isSave = true, params T[] entitys)
@@ -222,9 +223,9 @@ namespace EFCore.DAL.Common.Core
             return this._dbSet.AsNoTracking().Count(@where);
         }
 
-        public T FirstOrDefault(Expression<Func<T, bool>> @where)
+        public async Task<T> FirstOrDefault(Expression<Func<T, bool>> @where)
         {
-            return this._dbSet.AsNoTracking().FirstOrDefault(@where);
+            return await this._dbSet.AsNoTracking().FirstOrDefaultAsync(@where);
         }
 
         public T FirstOrDefault<TOrder>(Expression<Func<T, bool>> @where, Expression<Func<T, TOrder>> order, bool isDesc = false)

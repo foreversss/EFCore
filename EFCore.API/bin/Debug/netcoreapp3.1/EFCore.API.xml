@@ -4,10 +4,23 @@
         <name>EFCore.API</name>
     </assembly>
     <members>
-        <member name="M:EFCore.API.Controllers.ValuesController.GetAllUser">
+        <member name="F:EFCore.API.Controllers.Users.UsersController._userService">
             <summary>
-            查询所有用户
+            用户服务
             </summary>
+        </member>
+        <member name="M:EFCore.API.Controllers.Users.UsersController.SignIn(EFCore.Entity.Model_Entity.LoginUser)">
+            <summary>
+            登录
+            </summary>
+            <param name="userinfo">登录用户名和密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:EFCore.API.Controllers.Users.UsersController.Register(EFCore.Entity.DB_Entity.Blog_Users)">
+            <summary>
+            注册用户
+            </summary>
+            <param name="user">用户实体</param>
             <returns></returns>
         </member>
     </members>

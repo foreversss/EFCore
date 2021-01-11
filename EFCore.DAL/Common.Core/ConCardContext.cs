@@ -1,5 +1,6 @@
 ﻿using EFCore.DAL.Common.Interface;
 using EFCore.Entity;
+using EFCore.Entity.DB_Entity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,9 +19,7 @@ namespace EFCore.DAL.Common.Core
 
         }
 
-
-        public DbSet<tb_users> tb_Users { get; set; }
-
+        public DbSet<Blog_Users> Blog_Users { get; set; }
 
     }
 }

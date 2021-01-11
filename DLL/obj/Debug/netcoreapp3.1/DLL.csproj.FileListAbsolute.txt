@@ -1,0 +1,14 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\DLL.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\DLL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\DLL.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\Repository.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\bin\Debug\netcoreapp3.1\Repository.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CoreCompileInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.csproj.CopyComplete
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\DLL\obj\Debug\netcoreapp3.1\DLL.pdb

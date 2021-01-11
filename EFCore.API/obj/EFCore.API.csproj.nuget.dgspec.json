@@ -49,6 +49,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
             "Quartz": {
               "target": "Package",
               "version": "[3.0.7, )"
@@ -302,7 +306,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj": {
+                "projectPath": "F:\\学习文件\\asp.NetCore\\EFcore\\EFcore\\EFCore.Entity\\EFCore.Entity.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -330,9 +338,17 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Quartz": {
               "target": "Package",
               "version": "[3.0.7, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             },
             "log4net": {
               "target": "Package",

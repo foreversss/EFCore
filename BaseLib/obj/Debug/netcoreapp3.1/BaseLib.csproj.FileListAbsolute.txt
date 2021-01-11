@@ -1,0 +1,8 @@
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\bin\Debug\netcoreapp3.1\BaseLib.deps.json
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\bin\Debug\netcoreapp3.1\BaseLib.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\bin\Debug\netcoreapp3.1\EFCore.Entity.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\bin\Debug\netcoreapp3.1\EFCore.Entity.pdb
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\obj\Debug\netcoreapp3.1\BaseLib.csprojAssemblyReference.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\obj\Debug\netcoreapp3.1\BaseLib.AssemblyInfoInputs.cache
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\obj\Debug\netcoreapp3.1\BaseLib.AssemblyInfo.cs
+F:\学习文件\asp.NetCore\EFcore\EFcore\BaseLib\obj\Debug\netcoreapp3.1\BaseLib.csproj.CopyComplete

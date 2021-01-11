@@ -91,7 +91,8 @@ F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\run
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\log4net.config
+F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\obj\Debug\netcoreapp3.1\EFCore.API.csproj.CoreCompileInputs.cache
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\obj\Debug\netcoreapp3.1\EFCore.API.MvcApplicationPartsAssemblyInfo.cs
 F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\obj\Debug\netcoreapp3.1\EFCore.API.MvcApplicationPartsAssemblyInfo.cache
-F:\学习文件\asp.NetCore\EFcore\EFcore\EFCore.API\bin\Debug\netcoreapp3.1\log4net.config

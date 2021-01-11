@@ -29,29 +29,11 @@ namespace EFCore.API.Controllers
             this._cacheService = cacheService;
         }
 
-        /// <summary>
-        /// 查询所有用户
-        /// </summary>
-        /// <returns></returns>
-        [HttpGet]
-        public ActionResult<string> GetAllUser()
-        {
 
-            QuartzService.StartJob<QuartzJob>("jobWork1",10);
-
-           //获取缓存
-           var list = _cacheService.Get<List<tb_users>>("UserList");
-
-          
-            //判断缓存是否过期
-            if (list == null)
-            {
-                list = this._userService.users();
-                            
-                _cacheService.AddObject("UserList", list, new TimeSpan(0, 2, 36), true);
-            }
-
-            return new JsonResult(list);          
-        }
+        //public IActionResult GetALL()
+        //{
+        //    QuartzService.StartJob<QuartzJob>("jobWork1", 1);
+        //    return Ok("11");
+        //}
     }
 }
